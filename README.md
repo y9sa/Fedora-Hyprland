@@ -109,8 +109,8 @@ sh <(curl -L https://raw.githubusercontent.com/JaKooLit/Fedora-Hyprland/main/aut
 ## ✨ to use this script
 > clone this repo (latest commit only) to reduce file size download by using git. Change directory, make executable and run the script
 ```bash
-git clone --depth=1 https://github.com/JaKooLit/Fedora-Hyprland.git ~/Fedora-Hyprland
-cd ~/Fedora-Hyprland
+git clone --depth=1 https://github.com/y9sa/My_Hyprland.git ~/My-Hyprland
+cd ~/My-Hyprland
 chmod +x install.sh
 ./install.sh
 ```
