@@ -24,7 +24,7 @@ if [ -d Hyprland-Dots ]; then
   chmod +x copy.sh
   ./copy.sh 
 else
-  if git clone --depth=1 https://github.com/y9sa/Hyprland-Dots.git; then
+  if git clone --depth=1 https://github.com/y9sa/Hyprland-Dots; then
     cd Hyprland-Dots || exit 1
     chmod +x copy.sh
     ./copy.sh 
