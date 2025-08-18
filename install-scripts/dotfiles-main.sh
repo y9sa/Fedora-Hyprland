@@ -18,7 +18,7 @@ fi
 
 printf "${NOTE} Cloning and Installing ${SKY_BLUE}KooL's Hyprland Dots${RESET}....\n"
 # Check if Hyprland-Dots exists
-if [ -d Hyprland-Dots ]; then
+if [ -d Hyprland-Dots-1 ]; then
   cd Hyprland-Dots
   git stash && git pull
   chmod +x copy.sh
